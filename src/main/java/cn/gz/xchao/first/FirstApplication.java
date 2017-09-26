@@ -10,10 +10,6 @@ public class FirstApplication {
 		SpringApplication.run(FirstApplication.class, args);
 	}
 
-	// @RequestMapping(value = "/")
-	// public String index() {
-	// return "index";
-	// }
 	// @Bean
 	// public ServletRegistrationBean dispatcherRegistration(
 	// DispatcherServlet dispatcherServlet) {
