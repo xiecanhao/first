@@ -13,6 +13,6 @@ public interface UserMapper {
 	@Select("select id,name from user")
 	List<User> findAllUser();
 
-	@Select("select count(*) from user where id=#{name} and name=#{passwd}")
+	@Select("select count(*) from user where name=#{name} and name=#{passwd}")
 	int isExist(@Param("name") String name, @Param("passwd") String passwd);
 }

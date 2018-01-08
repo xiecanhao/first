@@ -11,7 +11,7 @@
 			<li th:each="item : ${users}" th:text="${item.name}"></li>
 		</ul>
 	</div>
-	<form action="/login" method="get">
+	<form action="/login" method="post">
 		<div>
 			<div>
 				<span>id:</span><input type="text" name="name" placeholder="请输入id" />
